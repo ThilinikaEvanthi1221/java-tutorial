@@ -20,7 +20,8 @@ public class Strings {
 
         // substring
         String name6 = "Aman and Apu";
-        System.out.println(name.substring(0, 4));
+        System.out.println(name6.substring(0, 4));
         // end index not include to the output
+        System.out.println(name6.substring(5, 8));
     }
 }
