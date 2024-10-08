@@ -15,5 +15,10 @@ public class Arrays {
 
         // sort
         // Arrays.sort(marks);
+
+        int[] marks1 = { 97, 98, 96 };
+
+        int[][] finalMarks = { { 97, 98, 95 }, { 95, 95, 98 } };
+        System.out.println(finalMarks[0][0]);
     }
 }
