@@ -11,5 +11,16 @@ public class Strings {
 
         String name = "Aman";
         System.out.println(name.charAt(0));
+        System.out.println(name.length());
+
+        // replace
+        String name4 = "Aman";
+        String name5 = name4.replace('a', 'b');
+        System.out.println(name5);
+
+        // substring
+        String name6 = "Aman and Apu";
+        System.out.println(name.substring(0, 4));
+        // end index not include to the output
     }
 }
