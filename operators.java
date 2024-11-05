@@ -12,5 +12,9 @@ public class operators {
 
         // num++ change later
         // ++num change before
+
+        // Math class
+
+        System.out.println(Math.max(6, 7));
     }
 }
